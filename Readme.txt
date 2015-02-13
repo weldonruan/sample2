@@ -1,1 +1,2 @@
 Sample2
+利用Constraints来自适应尺寸
