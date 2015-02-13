@@ -10,9 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var wv: UIWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        //打开网页
+        var uu  = NSURL(string: "http://map.baidu.com")
+        var req = NSURLRequest(URL:uu!)
+        wv!.loadRequest(req)
     }
 
     override func didReceiveMemoryWarning() {

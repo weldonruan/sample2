@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E63B76B1A8D83F700E0E036 /* Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7E63B76A1A8D83F700E0E036 /* Readme.txt */; };
 		844EEAB91A8CD98300D41013 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844EEAB81A8CD98300D41013 /* AppDelegate.swift */; };
 		844EEABB1A8CD98300D41013 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844EEABA1A8CD98300D41013 /* ViewController.swift */; };
 		844EEABE1A8CD98300D41013 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844EEABC1A8CD98300D41013 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E63B76A1A8D83F700E0E036 /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
 		844EEAB31A8CD98300D41013 /* url2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = url2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		844EEAB71A8CD98300D41013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		844EEAB81A8CD98300D41013 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 		844EEAAA1A8CD98300D41013 = {
 			isa = PBXGroup;
 			children = (
+				7E63B76A1A8D83F700E0E036 /* Readme.txt */,
 				844EEAB51A8CD98300D41013 /* url2 */,
 				844EEACB1A8CD98300D41013 /* url2Tests */,
 				844EEAB41A8CD98300D41013 /* Products */,
@@ -194,6 +197,7 @@
 			files = (
 				844EEABE1A8CD98300D41013 /* Main.storyboard in Resources */,
 				844EEAC31A8CD98300D41013 /* LaunchScreen.xib in Resources */,
+				7E63B76B1A8D83F700E0E036 /* Readme.txt in Resources */,
 				844EEAC01A8CD98300D41013 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +411,7 @@
 				844EEAD41A8CD98300D41013 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		844EEAD51A8CD98300D41013 /* Build configuration list for PBXNativeTarget "url2Tests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				844EEAD71A8CD98300D41013 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
