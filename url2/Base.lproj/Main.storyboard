@@ -20,12 +20,28 @@
                                 <rect key="frame" x="132" y="101" width="337" height="324"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
+                            <tabBar contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yqx-8B-46O">
+                                <rect key="frame" x="16" y="551" width="568" height="49"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="ZPT-ac-q5W"/>
+                                </constraints>
+                                <items>
+                                    <tabBarItem systemItem="favorites" id="HD3-YF-Zj8"/>
+                                    <tabBarItem systemItem="more" id="1VY-ns-9Nl"/>
+                                    <tabBarItem systemItem="search" id="dgI-1P-4mF"/>
+                                    <tabBarItem systemItem="contacts" id="Obq-Fj-GLH"/>
+                                </items>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="yqx-8B-46O" secondAttribute="trailing" id="2bt-dD-1E4"/>
                             <constraint firstItem="Eh1-TE-HOU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="BqS-UA-cNZ"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Eh1-TE-HOU" secondAttribute="bottom" id="Nsd-P2-OSi"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Eh1-TE-HOU" secondAttribute="bottom" constant="50" id="Nsd-P2-OSi"/>
+                            <constraint firstItem="yqx-8B-46O" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ZdV-62-zYE"/>
                             <constraint firstAttribute="trailing" secondItem="Eh1-TE-HOU" secondAttribute="trailing" id="aCP-De-tMu"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="yqx-8B-46O" secondAttribute="bottom" id="mTX-jS-eFF"/>
                             <constraint firstItem="Eh1-TE-HOU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="vbw-xB-Fi5"/>
                         </constraints>
                     </view>
