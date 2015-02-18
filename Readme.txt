@@ -1,2 +1,6 @@
 Sample2
 利用Constraints来自适应尺寸
+
+20150218
+使用TabBarController来完成多页面的开发
+使用CoreLocation库来实现UIWebView控件获取GPS位置，并且可以打印GPS位置
