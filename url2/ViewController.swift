@@ -27,7 +27,7 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
         locationManager.startUpdatingLocation()
         
         //打开网页
-        var uu  = NSURL(string: "http://map.baidu.com")
+        var uu  = NSURL(string: "http://www.google.cn/maps/")
         var req = NSURLRequest(URL:uu!)
         wv!.loadRequest(req)
     }
@@ -37,15 +37,20 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
         // Dispose of any resources that can be recreated.
     }
     
+    //func webViewDidStartLoad(webview:UIWebView!) {
+    //    NSLog("webViewDidStartLoad")
+    //}
+    
     func ios8() -> Bool{
         return UIDevice.currentDevice().systemVersion == "8.1"
     } 
     
     func locationManager(manager: CLLocationManager!, didUpdateLocations locations: [AnyObject]!) {
+        //测试用，打印经纬度
         var location:CLLocation = locations[locations.count - 1] as CLLocation
         if(location.horizontalAccuracy > 0){
-            println(location.coordinate.latitude)
-            println(location.coordinate.longitude)
+            //println(location.coordinate.latitude)
+            NSLog("lat=%f lon=%f" , location.coordinate.latitude , location.coordinate.longitude)
             locationManager.stopUpdatingLocation()
         }
     }

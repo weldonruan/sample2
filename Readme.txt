@@ -4,3 +4,6 @@ Sample2
 20150218
 使用TabBarController来完成多页面的开发
 使用CoreLocation库来实现UIWebView控件获取GPS位置，并且可以打印GPS位置
+
+20150226
+使用NSLog函数来打印输出
